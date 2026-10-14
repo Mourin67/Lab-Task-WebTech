@@ -29,3 +29,53 @@ body {
   border-radius: 10px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
+
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+.form-group input {
+  width: 100%;
+  padding: 11px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 15px;
+  outline: none;
+}
+
+.auth-card h1 {
+  font-size: 26px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.auth-card .subtitle {
+  text-align: center;
+}
+
+.radio-group {
+  display: inline-flex;
+  gap: 18px;
+  font-size: 14px;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+a.btn:hover {
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #02154b;
+}
